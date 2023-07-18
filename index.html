@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/d2ab6be11e.js" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js" integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>RichLine</title>
+</head>
+<body>
+    <section class="hero">
+
+        <nav class="navbar">
+            <h1 class="logo">RichLine</h1>
+            <span class="m-icon"><i class="fa-solid fa-bars fa-lg "></i></span>
+            <!-- add close -->
+
+            <ul class="nav-list">
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>For payroll and HR providers</li></a>
+            <a href="#"><li>For consumers</li></a>
+            <a href="#"><li>Contact</li></a>
+            </ul>
+        </nav>
+        <div class="mobile-nav">
+            <ul class="mobile-nav-list">
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>For payroll and HR providers</li></a>
+                <a href="#"><li>For consumers</li></a>
+                <a href="#"><li>Contact</li></a>
+            </ul>
+        </div>
+        <div class="hero-main">
+            <div class="heading">
+                <h1 class="hero-heading">
+                    Payments. Reimagined.
+                </h1>
+                <p class="hero-para">
+                    Richline is a new payments platform that automates bill payments directly from payroll. Lenders can decrease missed payments by up to 2/3rds, reduce credit losses, expand customers' credit options, and better support financial wellness.
+                </p>
+                <button type="button">
+                    Let's Chat
+                </button>
+            </div>
+            <div class="anima" id="anime">
+                <script>
+                    var animation = bodymovin.loadAnimation({
+                        container: document.getElementById('anime'),
+    
+                path: 'assets/male-investor-riding-scooter.json',
+    
+                renderer: 'svg',
+    
+    loop: true,
+    
+    autoplay: true,
+    
+    name: "Investor",
+                    })
+                </script>
+            </div>
+        </div>
+    </section>
+    <section class="about-company">
+        <div class="c-container">
+            <div class="c-titile1">
+                <h1 class="heading-m">
+                    We reinvented and simplified both sides of the bill pay equation.
+                </h1>
+            </div>
+            <div class="c-desciption">
+                <div>
+                    <span class="icons"><i class="fa-solid fa-money-bill-wave fa-lg"></i></span>
+                <p class="c-para">Highline supports all forms of recurring bill payment, from personal loans and credit cards, to rent and utilities.</p>
+                </div>
+                <div>
+                    <span class="icons"><i class="fa-solid fa-code fa-lg"></i></span>
+                    <p>Simply drop the Highline API into your customer experience and give qualifying customers instant access to a better way to pay.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="business">
+        <div class="b-heading">
+            <h1 class="c-titile1">How money flows with Highline</h1>
+            <div class="b-para">
+                <p class="c-para">
+                    Highline mitigates risk behind the scenes. When a customer’s employer sends their paycheck, Highline divides it as needed. The loan payment flows through the customer’s virtual Highline account directly to the lender, and the rest flows normally into their checking account.
+                </p>
+                <p class="c-para">Customers get ‘set it and forget it’ peace of mind, without having to monitor their balance to avoid overdrafts and late fees. Lenders and billers get paid on time, every time.</p>
+            </div>
+        </div>
+
+
+        <div class="money-flow" id="money">
+            <script>
+                var anime = bodymovin.loadAnimation({
+                    container: document.getElementById("money"),
+                    path : 'assets/business-chart.json',
+                    renderer: 'svg',
+                    autoplay: true,
+                    loop: true,
+                })
+            </script>
+        </div>
+
+        <div class="lets-chat">
+            <img src="assets/Untitled-1.png" alt="" srcset="">
+            <div>
+                <h1 class="tittle3">
+                    Start reducing losses and expanding access
+                </h1>
+                <button type="button">
+                    Let's Chat
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="up-to-date">
+        <div>
+                <h1 class="tittle3">
+                    <span>Stay up to date</span> <br>
+                     with everything<br>Richline
+                 </h1>
+
+            <form action="">
+                <p>At Highline, we are just getting started! Sign up today to stay informed about all of our future bill pay innovations.</p>
+                <input type="email" name="" id="" placeholder="Email">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="f-left">
+            <h1 class="logo">RichLine</h1>
+            <p>
+                © Made by Chirath. 2023. All Rights Reserved
+            </p>
+        </div>
+        <ul class="nav-list-f">
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>For payroll and HR providers</li></a>
+            <a href="#"><li>For consumers</li></a>
+            <a href="#"><li>Contact</li></a>
+            </ul>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
